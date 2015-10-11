@@ -1,0 +1,600 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		18259CC91B55008200B9D278 /* iPhone5.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 18259CC81B55008200B9D278 /* iPhone5.storyboard */; };
+		18259CCD1B55081700B9D278 /* kSheetNotificationView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 18259CCC1B55081700B9D278 /* kSheetNotificationView.xib */; };
+		182A78F01B36604500928F68 /* HomePageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 182A78EF1B36604500928F68 /* HomePageViewController.swift */; };
+		182A78F21B3698BB00928F68 /* RegisterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 182A78F11B3698BB00928F68 /* RegisterViewController.swift */; };
+		183AD6A61B4E1ED2007517DE /* ExChoiceCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 183AD6A51B4E1ED2007517DE /* ExChoiceCell.swift */; };
+		1841D8F51B4B9BB3001557D2 /* RecordCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1841D8F41B4B9BB3001557D2 /* RecordCell.swift */; };
+		1841D8F71B4B9D67001557D2 /* SheetReport.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1841D8F61B4B9D67001557D2 /* SheetReport.swift */; };
+		186232CE1BB597C50027F8C9 /* BmobSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 186232CD1BB597C50027F8C9 /* BmobSDK.framework */; };
+		187A282B1B1B5B2F00DCBCA8 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 187A282A1B1B5B2F00DCBCA8 /* AppDelegate.swift */; };
+		187A28301B1B5B2F00DCBCA8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 187A282E1B1B5B2F00DCBCA8 /* Main.storyboard */; };
+		187A28321B1B5B2F00DCBCA8 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 187A28311B1B5B2F00DCBCA8 /* Images.xcassets */; };
+		187A28351B1B5B2F00DCBCA8 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 187A28331B1B5B2F00DCBCA8 /* LaunchScreen.xib */; };
+		187A28411B1B5B3000DCBCA8 /* SudoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 187A28401B1B5B3000DCBCA8 /* SudoTests.swift */; };
+		187F9B121B560FC900E73C32 /* NSDate+NetworkClock.m in Sources */ = {isa = PBXBuildFile; fileRef = 187F9B0B1B560FC900E73C32 /* NSDate+NetworkClock.m */; };
+		187F9B131B560FC900E73C32 /* NetAssociation.m in Sources */ = {isa = PBXBuildFile; fileRef = 187F9B0D1B560FC900E73C32 /* NetAssociation.m */; };
+		187F9B141B560FC900E73C32 /* NetworkClock.m in Sources */ = {isa = PBXBuildFile; fileRef = 187F9B101B560FC900E73C32 /* NetworkClock.m */; };
+		187F9B181B56107500E73C32 /* GCDAsyncUdpSocket.m in Sources */ = {isa = PBXBuildFile; fileRef = 187F9B171B56107500E73C32 /* GCDAsyncUdpSocket.m */; };
+		188EAA4A1B428A030097A013 /* SheetNotificationView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 188EAA491B428A030097A013 /* SheetNotificationView.xib */; };
+		188EAA4C1B428A600097A013 /* SheetNotificationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 188EAA4B1B428A600097A013 /* SheetNotificationView.swift */; };
+		18BAF9CB1B50D2A000D9019E /* PingHeiLight.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 18BAF9CA1B50D24800D9019E /* PingHeiLight.ttf */; };
+		18CA53FD1B28455900EC3E80 /* ReportViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18CA53FC1B28455900EC3E80 /* ReportViewController.swift */; };
+		18D16A101B28543E00BAA927 /* libsqlite3.0.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 18D16A0F1B28543E00BAA927 /* libsqlite3.0.dylib */; };
+		18DE14761B2A50AE0025D9E6 /* SudoSheet.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18DE14751B2A50AE0025D9E6 /* SudoSheet.swift */; };
+		18DE14781B2A70D10025D9E6 /* ChoiceCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18DE14771B2A70D10025D9E6 /* ChoiceCell.swift */; };
+		18F1964D1B35110E00D21B09 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 18F1964C1B35110E00D21B09 /* CoreLocation.framework */; };
+		18F1964F1B35111B00D21B09 /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 18F1964E1B35111B00D21B09 /* Security.framework */; };
+		18F196511B35112000D21B09 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 18F196501B35112000D21B09 /* CoreGraphics.framework */; };
+		18F196531B35112D00D21B09 /* MobileCoreServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 18F196521B35112D00D21B09 /* MobileCoreServices.framework */; };
+		18F196551B35113300D21B09 /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 18F196541B35113300D21B09 /* CFNetwork.framework */; };
+		18F196571B35113900D21B09 /* CoreTelephony.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 18F196561B35113900D21B09 /* CoreTelephony.framework */; };
+		18F196591B35114800D21B09 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 18F196581B35114800D21B09 /* SystemConfiguration.framework */; };
+		18F1965B1B35114F00D21B09 /* libz.1.2.5.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 18F1965A1B35114F00D21B09 /* libz.1.2.5.dylib */; };
+		18F1965D1B35115C00D21B09 /* libicucore.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 18F1965C1B35115C00D21B09 /* libicucore.dylib */; };
+		18F1965F1B35116500D21B09 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 18F1965E1B35116500D21B09 /* AVFoundation.framework */; };
+		18F196611B35116A00D21B09 /* MediaPlayer.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 18F196601B35116A00D21B09 /* MediaPlayer.framework */; };
+		18FA85601B4D489100DAC309 /* BadgesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18FA855F1B4D489100DAC309 /* BadgesViewController.swift */; };
+		18FA85621B4D490000DAC309 /* BadgeCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18FA85611B4D490000DAC309 /* BadgeCell.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		187A283B1B1B5B3000DCBCA8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 187A281D1B1B5B2F00DCBCA8 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 187A28241B1B5B2F00DCBCA8;
+			remoteInfo = Sudo;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		18259CC81B55008200B9D278 /* iPhone5.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = iPhone5.storyboard; sourceTree = "<group>"; };
+		18259CCC1B55081700B9D278 /* kSheetNotificationView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = kSheetNotificationView.xib; sourceTree = "<group>"; };
+		182A78EF1B36604500928F68 /* HomePageViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomePageViewController.swift; sourceTree = "<group>"; };
+		182A78F11B3698BB00928F68 /* RegisterViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RegisterViewController.swift; sourceTree = "<group>"; };
+		183AD6A51B4E1ED2007517DE /* ExChoiceCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ExChoiceCell.swift; sourceTree = "<group>"; };
+		1841D8F41B4B9BB3001557D2 /* RecordCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RecordCell.swift; sourceTree = "<group>"; };
+		1841D8F61B4B9D67001557D2 /* SheetReport.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SheetReport.swift; sourceTree = "<group>"; };
+		186232CD1BB597C50027F8C9 /* BmobSDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = BmobSDK.framework; sourceTree = "<group>"; };
+		187A28251B1B5B2F00DCBCA8 /* Sudo4Student.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Sudo4Student.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		187A28291B1B5B2F00DCBCA8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		187A282A1B1B5B2F00DCBCA8 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		187A282F1B1B5B2F00DCBCA8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		187A28311B1B5B2F00DCBCA8 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		187A28341B1B5B2F00DCBCA8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		187A283A1B1B5B3000DCBCA8 /* Sudo4StudentTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Sudo4StudentTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		187A283F1B1B5B3000DCBCA8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		187A28401B1B5B3000DCBCA8 /* SudoTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SudoTests.swift; sourceTree = "<group>"; };
+		187F9B0B1B560FC900E73C32 /* NSDate+NetworkClock.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSDate+NetworkClock.m"; sourceTree = "<group>"; };
+		187F9B0C1B560FC900E73C32 /* NSDate+NetworkClock.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSDate+NetworkClock.h"; sourceTree = "<group>"; };
+		187F9B0D1B560FC900E73C32 /* NetAssociation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NetAssociation.m; sourceTree = "<group>"; };
+		187F9B0E1B560FC900E73C32 /* NetAssociation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NetAssociation.h; sourceTree = "<group>"; };
+		187F9B0F1B560FC900E73C32 /* ios-ntp.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "ios-ntp.h"; sourceTree = "<group>"; };
+		187F9B101B560FC900E73C32 /* NetworkClock.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NetworkClock.m; sourceTree = "<group>"; };
+		187F9B111B560FC900E73C32 /* NetworkClock.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NetworkClock.h; sourceTree = "<group>"; };
+		187F9B151B56103700E73C32 /* ntp-log.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "ntp-log.h"; sourceTree = "<group>"; };
+		187F9B161B56107500E73C32 /* GCDAsyncUdpSocket.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GCDAsyncUdpSocket.h; sourceTree = "<group>"; };
+		187F9B171B56107500E73C32 /* GCDAsyncUdpSocket.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GCDAsyncUdpSocket.m; sourceTree = "<group>"; };
+		188EAA491B428A030097A013 /* SheetNotificationView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SheetNotificationView.xib; sourceTree = "<group>"; };
+		188EAA4B1B428A600097A013 /* SheetNotificationView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SheetNotificationView.swift; sourceTree = "<group>"; };
+		18BAF9CA1B50D24800D9019E /* PingHeiLight.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = PingHeiLight.ttf; sourceTree = "<group>"; };
+		18CA53FC1B28455900EC3E80 /* ReportViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ReportViewController.swift; sourceTree = "<group>"; };
+		18D16A0F1B28543E00BAA927 /* libsqlite3.0.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libsqlite3.0.dylib; path = usr/lib/libsqlite3.0.dylib; sourceTree = SDKROOT; };
+		18DE14751B2A50AE0025D9E6 /* SudoSheet.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SudoSheet.swift; sourceTree = "<group>"; };
+		18DE14771B2A70D10025D9E6 /* ChoiceCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ChoiceCell.swift; sourceTree = "<group>"; };
+		18E284891B34E77A00C7FB1C /* Sudo-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Sudo-Bridging-Header.h"; sourceTree = "<group>"; };
+		18F1964C1B35110E00D21B09 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		18F1964E1B35111B00D21B09 /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
+		18F196501B35112000D21B09 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		18F196521B35112D00D21B09 /* MobileCoreServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MobileCoreServices.framework; path = System/Library/Frameworks/MobileCoreServices.framework; sourceTree = SDKROOT; };
+		18F196541B35113300D21B09 /* CFNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CFNetwork.framework; path = System/Library/Frameworks/CFNetwork.framework; sourceTree = SDKROOT; };
+		18F196561B35113900D21B09 /* CoreTelephony.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreTelephony.framework; path = System/Library/Frameworks/CoreTelephony.framework; sourceTree = SDKROOT; };
+		18F196581B35114800D21B09 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		18F1965A1B35114F00D21B09 /* libz.1.2.5.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libz.1.2.5.dylib; path = usr/lib/libz.1.2.5.dylib; sourceTree = SDKROOT; };
+		18F1965C1B35115C00D21B09 /* libicucore.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libicucore.dylib; path = usr/lib/libicucore.dylib; sourceTree = SDKROOT; };
+		18F1965E1B35116500D21B09 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		18F196601B35116A00D21B09 /* MediaPlayer.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MediaPlayer.framework; path = System/Library/Frameworks/MediaPlayer.framework; sourceTree = SDKROOT; };
+		18FA855F1B4D489100DAC309 /* BadgesViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BadgesViewController.swift; sourceTree = "<group>"; };
+		18FA85611B4D490000DAC309 /* BadgeCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BadgeCell.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		187A28221B1B5B2F00DCBCA8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				18F196611B35116A00D21B09 /* MediaPlayer.framework in Frameworks */,
+				18F1965F1B35116500D21B09 /* AVFoundation.framework in Frameworks */,
+				18F1965D1B35115C00D21B09 /* libicucore.dylib in Frameworks */,
+				18F1965B1B35114F00D21B09 /* libz.1.2.5.dylib in Frameworks */,
+				18F196591B35114800D21B09 /* SystemConfiguration.framework in Frameworks */,
+				18F196571B35113900D21B09 /* CoreTelephony.framework in Frameworks */,
+				186232CE1BB597C50027F8C9 /* BmobSDK.framework in Frameworks */,
+				18F196551B35113300D21B09 /* CFNetwork.framework in Frameworks */,
+				18F196531B35112D00D21B09 /* MobileCoreServices.framework in Frameworks */,
+				18F196511B35112000D21B09 /* CoreGraphics.framework in Frameworks */,
+				18F1964F1B35111B00D21B09 /* Security.framework in Frameworks */,
+				18F1964D1B35110E00D21B09 /* CoreLocation.framework in Frameworks */,
+				18D16A101B28543E00BAA927 /* libsqlite3.0.dylib in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		187A28371B1B5B3000DCBCA8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		187A281C1B1B5B2F00DCBCA8 = {
+			isa = PBXGroup;
+			children = (
+				18F196621B3512B600D21B09 /* Frameworks */,
+				187A28271B1B5B2F00DCBCA8 /* Sudo */,
+				187A283D1B1B5B3000DCBCA8 /* SudoTests */,
+				187A28261B1B5B2F00DCBCA8 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		187A28261B1B5B2F00DCBCA8 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				187A28251B1B5B2F00DCBCA8 /* Sudo4Student.app */,
+				187A283A1B1B5B3000DCBCA8 /* Sudo4StudentTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		187A28271B1B5B2F00DCBCA8 /* Sudo */ = {
+			isa = PBXGroup;
+			children = (
+				18BAF9C91B50D23700D9019E /* Fonts */,
+				187A282A1B1B5B2F00DCBCA8 /* AppDelegate.swift */,
+				182A78F11B3698BB00928F68 /* RegisterViewController.swift */,
+				187A282E1B1B5B2F00DCBCA8 /* Main.storyboard */,
+				1841D8F41B4B9BB3001557D2 /* RecordCell.swift */,
+				18259CC81B55008200B9D278 /* iPhone5.storyboard */,
+				18DE14771B2A70D10025D9E6 /* ChoiceCell.swift */,
+				18FA855F1B4D489100DAC309 /* BadgesViewController.swift */,
+				188EAA491B428A030097A013 /* SheetNotificationView.xib */,
+				183AD6A51B4E1ED2007517DE /* ExChoiceCell.swift */,
+				18FA85611B4D490000DAC309 /* BadgeCell.swift */,
+				18259CCC1B55081700B9D278 /* kSheetNotificationView.xib */,
+				188EAA4B1B428A600097A013 /* SheetNotificationView.swift */,
+				1841D8F61B4B9D67001557D2 /* SheetReport.swift */,
+				182A78EF1B36604500928F68 /* HomePageViewController.swift */,
+				18DE14751B2A50AE0025D9E6 /* SudoSheet.swift */,
+				18CA53FC1B28455900EC3E80 /* ReportViewController.swift */,
+				187A28311B1B5B2F00DCBCA8 /* Images.xcassets */,
+				187A28331B1B5B2F00DCBCA8 /* LaunchScreen.xib */,
+				187A28281B1B5B2F00DCBCA8 /* Supporting Files */,
+			);
+			path = Sudo;
+			sourceTree = "<group>";
+		};
+		187A28281B1B5B2F00DCBCA8 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				187A28291B1B5B2F00DCBCA8 /* Info.plist */,
+				18E284891B34E77A00C7FB1C /* Sudo-Bridging-Header.h */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		187A283D1B1B5B3000DCBCA8 /* SudoTests */ = {
+			isa = PBXGroup;
+			children = (
+				187A28401B1B5B3000DCBCA8 /* SudoTests.swift */,
+				187A283E1B1B5B3000DCBCA8 /* Supporting Files */,
+			);
+			path = SudoTests;
+			sourceTree = "<group>";
+		};
+		187A283E1B1B5B3000DCBCA8 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				187A283F1B1B5B3000DCBCA8 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		18BAF9C91B50D23700D9019E /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				18BAF9CA1B50D24800D9019E /* PingHeiLight.ttf */,
+			);
+			name = Fonts;
+			sourceTree = "<group>";
+		};
+		18F196621B3512B600D21B09 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				187F9B0B1B560FC900E73C32 /* NSDate+NetworkClock.m */,
+				187F9B161B56107500E73C32 /* GCDAsyncUdpSocket.h */,
+				187F9B171B56107500E73C32 /* GCDAsyncUdpSocket.m */,
+				187F9B0C1B560FC900E73C32 /* NSDate+NetworkClock.h */,
+				187F9B0D1B560FC900E73C32 /* NetAssociation.m */,
+				187F9B0E1B560FC900E73C32 /* NetAssociation.h */,
+				187F9B0F1B560FC900E73C32 /* ios-ntp.h */,
+				187F9B151B56103700E73C32 /* ntp-log.h */,
+				187F9B101B560FC900E73C32 /* NetworkClock.m */,
+				187F9B111B560FC900E73C32 /* NetworkClock.h */,
+				18F196601B35116A00D21B09 /* MediaPlayer.framework */,
+				18F1965A1B35114F00D21B09 /* libz.1.2.5.dylib */,
+				18F1965E1B35116500D21B09 /* AVFoundation.framework */,
+				18F1965C1B35115C00D21B09 /* libicucore.dylib */,
+				186232CD1BB597C50027F8C9 /* BmobSDK.framework */,
+				18F196581B35114800D21B09 /* SystemConfiguration.framework */,
+				18F196561B35113900D21B09 /* CoreTelephony.framework */,
+				18F196541B35113300D21B09 /* CFNetwork.framework */,
+				18F196521B35112D00D21B09 /* MobileCoreServices.framework */,
+				18F196501B35112000D21B09 /* CoreGraphics.framework */,
+				18F1964E1B35111B00D21B09 /* Security.framework */,
+				18F1964C1B35110E00D21B09 /* CoreLocation.framework */,
+				18D16A0F1B28543E00BAA927 /* libsqlite3.0.dylib */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		187A28241B1B5B2F00DCBCA8 /* Sudo4Student */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 187A28441B1B5B3000DCBCA8 /* Build configuration list for PBXNativeTarget "Sudo4Student" */;
+			buildPhases = (
+				187A28211B1B5B2F00DCBCA8 /* Sources */,
+				187A28221B1B5B2F00DCBCA8 /* Frameworks */,
+				187A28231B1B5B2F00DCBCA8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Sudo4Student;
+			productName = Sudo;
+			productReference = 187A28251B1B5B2F00DCBCA8 /* Sudo4Student.app */;
+			productType = "com.apple.product-type.application";
+		};
+		187A28391B1B5B3000DCBCA8 /* Sudo4StudentTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 187A28471B1B5B3000DCBCA8 /* Build configuration list for PBXNativeTarget "Sudo4StudentTests" */;
+			buildPhases = (
+				187A28361B1B5B3000DCBCA8 /* Sources */,
+				187A28371B1B5B3000DCBCA8 /* Frameworks */,
+				187A28381B1B5B3000DCBCA8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				187A283C1B1B5B3000DCBCA8 /* PBXTargetDependency */,
+			);
+			name = Sudo4StudentTests;
+			productName = SudoTests;
+			productReference = 187A283A1B1B5B3000DCBCA8 /* Sudo4StudentTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		187A281D1B1B5B2F00DCBCA8 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0700;
+				LastUpgradeCheck = 0630;
+				ORGANIZATIONNAME = "fong tinyik";
+				TargetAttributes = {
+					187A28241B1B5B2F00DCBCA8 = {
+						CreatedOnToolsVersion = 6.3.2;
+					};
+					187A28391B1B5B3000DCBCA8 = {
+						CreatedOnToolsVersion = 6.3.2;
+						TestTargetID = 187A28241B1B5B2F00DCBCA8;
+					};
+				};
+			};
+			buildConfigurationList = 187A28201B1B5B2F00DCBCA8 /* Build configuration list for PBXProject "Sudo4Student" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 187A281C1B1B5B2F00DCBCA8;
+			productRefGroup = 187A28261B1B5B2F00DCBCA8 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				187A28241B1B5B2F00DCBCA8 /* Sudo4Student */,
+				187A28391B1B5B3000DCBCA8 /* Sudo4StudentTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		187A28231B1B5B2F00DCBCA8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				187A28301B1B5B2F00DCBCA8 /* Main.storyboard in Resources */,
+				18BAF9CB1B50D2A000D9019E /* PingHeiLight.ttf in Resources */,
+				18259CCD1B55081700B9D278 /* kSheetNotificationView.xib in Resources */,
+				188EAA4A1B428A030097A013 /* SheetNotificationView.xib in Resources */,
+				187A28351B1B5B2F00DCBCA8 /* LaunchScreen.xib in Resources */,
+				187A28321B1B5B2F00DCBCA8 /* Images.xcassets in Resources */,
+				18259CC91B55008200B9D278 /* iPhone5.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		187A28381B1B5B3000DCBCA8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		187A28211B1B5B2F00DCBCA8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				182A78F21B3698BB00928F68 /* RegisterViewController.swift in Sources */,
+				187F9B121B560FC900E73C32 /* NSDate+NetworkClock.m in Sources */,
+				18CA53FD1B28455900EC3E80 /* ReportViewController.swift in Sources */,
+				182A78F01B36604500928F68 /* HomePageViewController.swift in Sources */,
+				18FA85621B4D490000DAC309 /* BadgeCell.swift in Sources */,
+				183AD6A61B4E1ED2007517DE /* ExChoiceCell.swift in Sources */,
+				18DE14761B2A50AE0025D9E6 /* SudoSheet.swift in Sources */,
+				18DE14781B2A70D10025D9E6 /* ChoiceCell.swift in Sources */,
+				188EAA4C1B428A600097A013 /* SheetNotificationView.swift in Sources */,
+				187F9B181B56107500E73C32 /* GCDAsyncUdpSocket.m in Sources */,
+				18FA85601B4D489100DAC309 /* BadgesViewController.swift in Sources */,
+				187F9B141B560FC900E73C32 /* NetworkClock.m in Sources */,
+				187A282B1B1B5B2F00DCBCA8 /* AppDelegate.swift in Sources */,
+				1841D8F51B4B9BB3001557D2 /* RecordCell.swift in Sources */,
+				1841D8F71B4B9D67001557D2 /* SheetReport.swift in Sources */,
+				187F9B131B560FC900E73C32 /* NetAssociation.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		187A28361B1B5B3000DCBCA8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				187A28411B1B5B3000DCBCA8 /* SudoTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		187A283C1B1B5B3000DCBCA8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 187A28241B1B5B2F00DCBCA8 /* Sudo4Student */;
+			targetProxy = 187A283B1B1B5B3000DCBCA8 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		187A282E1B1B5B2F00DCBCA8 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				187A282F1B1B5B2F00DCBCA8 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		187A28331B1B5B2F00DCBCA8 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				187A28341B1B5B2F00DCBCA8 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		187A28421B1B5B3000DCBCA8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		187A28431B1B5B3000DCBCA8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		187A28451B1B5B3000DCBCA8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					/Users/fongtinyik/Downloads/Bmob_SDK_iOS_v1.5.8,
+					"$(PROJECT_DIR)",
+				);
+				INFOPLIST_FILE = Sudo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = Sudo4Student;
+				SWIFT_OBJC_BRIDGING_HEADER = "Sudo/Sudo-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		187A28461B1B5B3000DCBCA8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					/Users/fongtinyik/Downloads/Bmob_SDK_iOS_v1.5.8,
+					"$(PROJECT_DIR)",
+				);
+				INFOPLIST_FILE = Sudo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = Sudo4Student;
+				SWIFT_OBJC_BRIDGING_HEADER = "Sudo/Sudo-Bridging-Header.h";
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+		187A28481B1B5B3000DCBCA8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = SudoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = Sudo4StudentTests;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Sudo.app/Sudo";
+			};
+			name = Debug;
+		};
+		187A28491B1B5B3000DCBCA8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = SudoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = Sudo4StudentTests;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Sudo.app/Sudo";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		187A28201B1B5B2F00DCBCA8 /* Build configuration list for PBXProject "Sudo4Student" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				187A28421B1B5B3000DCBCA8 /* Debug */,
+				187A28431B1B5B3000DCBCA8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		187A28441B1B5B3000DCBCA8 /* Build configuration list for PBXNativeTarget "Sudo4Student" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				187A28451B1B5B3000DCBCA8 /* Debug */,
+				187A28461B1B5B3000DCBCA8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		187A28471B1B5B3000DCBCA8 /* Build configuration list for PBXNativeTarget "Sudo4StudentTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				187A28481B1B5B3000DCBCA8 /* Debug */,
+				187A28491B1B5B3000DCBCA8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 187A281D1B1B5B2F00DCBCA8 /* Project object */;
+}
